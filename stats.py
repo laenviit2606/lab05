@@ -22,3 +22,12 @@ def count_expensive(prices):
             count += 1
     return count
 print(count_expensive([4.50,12.00,3.25,8.75]))
+
+# Return the smallest price, or None when there are no prices
+def cheapest(prices):
+    """Return the smallest price in ``prices``."""
+    if not prices:
+        return None
+    return min(prices)
+print(cheapest([4.50, 12.00,3.25]))
+print(cheapest([]))
