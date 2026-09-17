@@ -1,5 +1,14 @@
 # Return the total of a list of prices
 def total(prices):
+#Documentation string (docstring) for the total function
+    """Calculate and return the sum of all prices in ``prices``.
+
+    Args:
+        prices: An iterable of prices to add together.
+
+    Returns:
+        The total of the prices as a number.
+    """
     total_price = 0 
     for price in prices:
         total_price += price
